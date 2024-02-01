@@ -1,0 +1,16 @@
+.card-link {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(115, 115, 115, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.card.active:hover .card-link {
+    display: block;
+}
