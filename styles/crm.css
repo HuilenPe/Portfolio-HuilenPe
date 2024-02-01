@@ -1,0 +1,32 @@
+.arrow-button{
+    position: fixed;
+    top: 11rem;
+    right: 8rem;
+}
+
+p{
+    text-align: left;
+    margin: 0rem 1rem 0rem;
+}
+
+h2{
+    margin: 0rem 1rem 1rem;
+}
+
+h3{
+    text-align: left;
+    margin: 0rem 1rem 0rem;
+    font-size: 1rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header-container .links {
+    margin-top: 4rem;
+    text-align: left;
+}
+

@@ -16,14 +16,19 @@ i{
 }
 
 .arrow-button {
-   background: none;
-   border: none;
-   padding: 0;
-   cursor: pointer;
-   float: left;
-   font-size: 1.5rem;
-   margin: 0rem 1rem 0;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    float: left;
+    font-size: 1.5rem;
+    margin: 0rem 1rem 0;
+    position: fixed;
+    top: 11rem;
+    right: 8rem;
 }
+
+
 
 .container {
     background-color: #fafafa;
@@ -243,5 +248,17 @@ nav a:hover {
     }
     .card {
         margin: 4px;
+    }
+}
+@media (max-width: 600px) {
+    .heading {
+        font-size: 1.5rem;
+        margin-left: 3rem;
+    }
+    .download-link i{
+        margin-left: 2rem;
+    }
+    .arrow-button {
+        right: 3rem;
     }
 }
